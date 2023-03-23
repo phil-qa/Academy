@@ -9,6 +9,10 @@ class Tester:
     def _load_tests(self):
         for test in tests:
             self._tests.append(_test(test))
+
+    @property
+    def Tests(self):
+        return self._tests
             
         
         
@@ -29,7 +33,7 @@ class _test:
         
     def _get_parts(self, test):
         parts = []
-        for value in test['parts'].values():
+        for value in test['parts']:
             parts.append((value['question'], value['ans']))
         return parts
         
