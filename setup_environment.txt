@@ -1,0 +1,14 @@
+To set up your own environment to work with this repo
+If you do not have python installed then go get it from https://www.python.org/downloads/ 
+Install it, set the installation path to c:/python and ENSURE the add to environment variables is ticked 
+If you do not have git installed go get it from https://git-scm.com/
+install it, you can accept all of the defaults for now 
+create a new folder for the files in here
+navigate to it in explorer 
+right click in the free space and if you see git bash then select that , if not, look in other options 
+a black git screen opens 
+in the terminal that opens type : 
+git clone https://https://github.com/phil-qa/Academy . 
+once it has all downloaded you should be able to get jupyter by typing in the same window: 
+jupyter notebook . 
+a browser should open and you chould see all the course files in there. the ones that work in here are the .ipynb files
